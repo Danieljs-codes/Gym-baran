@@ -12,6 +12,9 @@ module.exports = {
         'purple_gray': '#262524',
         'purple_gray_light': '#264373',
       },
+      maxWidth: {
+        'text': '17.6rem',
+      },
     },
   },
     plugins: [],
