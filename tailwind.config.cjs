@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'grotesk': ['Sporting Grotesque', 'sans-serif'],
+        'sporting_grotesque': ['sporting_grotesque', 'sans-serif'],
         'poppins': ['Poppins', 'sans-serif'],
       },
       colors: {

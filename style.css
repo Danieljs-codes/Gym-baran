@@ -2,6 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-.nav-shadow {
-  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.05));
+
+@font-face {
+  font-family: 'sporting_grotesque';
+  src: url('./fonts/sportinggrotesque-bold-webfont.woff2') format('woff2'),
+    url('./fonts/sportinggrotesque-bold-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'sporting_grotesque';
+  src: url('./fonts/sportinggrotesque-regular-webfont.woff') format('woff2'),
+    url('./fonts/sportinggrotesque-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.drop-shd {
+  filter: drop-shadow(0 14.29px 57px rgba(51, 78, 123, 0.3));
+}
+
+.img_blur {
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  z-index: -1;
 }
