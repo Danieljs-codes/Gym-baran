@@ -2,37 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @font-face {
-  font-family: 'sporting_grotesque';
-  src: url('./fonts/sportinggrotesque-bold-webfont.woff2') format('woff2'),
-    url('./fonts/sportinggrotesque-bold-webfont.woff') format('woff');
+  font-family: "sporting_grotesque";
+  src: url("./fonts/sportinggrotesque-bold-webfont.woff2") format("woff2"),
+    url("./fonts/sportinggrotesque-bold-webfont.woff") format("woff");
   font-weight: bold;
   font-style: normal;
-
 }
 
-
-
-
 @font-face {
-  font-family: 'sporting_grotesque';
-  src: url('./fonts/sportinggrotesque-regular-webfont.woff') format('woff2'),
-    url('./fonts/sportinggrotesque-regular-webfont.woff') format('woff');
+  font-family: "sporting_grotesque";
+  src: url("./fonts/sportinggrotesque-regular-webfont.woff") format("woff2"),
+    url("./fonts/sportinggrotesque-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-
 }
 
 .drop-shd {
   filter: drop-shadow(0 14.29px 57px rgba(51, 78, 123, 0.3));
 }
 
-
 nav-drop-shd {
   filter: drop-shadow(0px 20px 80px rgba(51, 78, 123, 0.3));
 }
 
-.blur-ab {
-  filter: blur(564px);
+* {
+  border: 1px solid red;
 }
